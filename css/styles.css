@@ -71,7 +71,7 @@ header {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.19;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -300,6 +300,8 @@ header {
   display: block;
   margin-bottom: 20px;
 }
+
+
 /* =============   FOOTER========================= */
 
 footer {
@@ -308,12 +310,51 @@ footer {
   padding-bottom: 60px;
 }
 
-/* .basement {
-  display: flex;
-  flex-direction: column; 
+.basement > .logo {
+  display: inline-block;
+  padding: 0px;
+  margin-bottom: 20px;
+}
+
+
+.basement .web,
+.basement .footer-studio {
+  display: inline-block;
+  padding: 0;
+ 
+}
+
+.basement .link {
+  margin-bottom: 9px;
+  display: inline-block;
+  line-height: 1.71;
+
+}
+
+.basement .tel {
+  margin-bottom: 0;
+}
+
+.footer-address > .link {
+  color: var(--primary-white-color);
+  font-style: normal;
+  text-decoration: none;
+}
+
+.basement .mail,
+.basement .tel {
+  color: #ffffff99;
+  text-decoration: none;
+}
+
+/* ============old footer========== */
+
+/* footer {
+  background-color: var(--footer-background);
   padding-top: 60px;
   padding-bottom: 60px;
-} */
+}
+
 
 .basement li:not(:last-child) {
   margin-bottom: 9px;
@@ -333,19 +374,19 @@ footer {
 
 .basement .list {
   display: inline-block;
+  line-height: 1.71;
 }
 
 .footer-address .link {
   color: var(--primary-white-color);
   font-style: normal;
-  line-height: 1.71;
   text-decoration: none;
 }
 
 .footer-address .mail,
 .footer-address .tel {
   color: #ffffff99;
-}
+} */
 
 /* ==============     INDEX.HTML=================== */
 
