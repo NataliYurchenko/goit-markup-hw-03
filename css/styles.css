@@ -30,7 +30,6 @@ font-family: 'Roboto', sans-serif; */
 
 body {
   color: var(--maine-text-color);
-  /* background-color: var(--primary-white-color); */
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
   font-size: 14px;
@@ -44,7 +43,7 @@ body {
   width: 1200px;
   padding-left: 15px;
   padding-right: 15px;
-  outline: 3px solid tomato;
+  /* outline: 3px solid tomato; */
 }
 
 /* =============    HEADER   ============== */
@@ -164,7 +163,6 @@ header {
   font-size: 16px;
   line-height: 1.63;
   align-items: center;
-  /* text-align: center; */
   letter-spacing: 0.03em;
   text-decoration: none;
 
@@ -212,7 +210,6 @@ header {
 .button.secondary {
   color: var(--maine-text-color);
   background-color: var(--button-secondary-background);
-  /* text-align: center; */
   padding: 6px 22px;
 }
 
@@ -287,7 +284,6 @@ header {
 
   color: var(--secondary-text-color);
   font-size: 16px;
-  /*   */
 }
 
 .portfolio {
@@ -332,10 +328,6 @@ footer {
   padding: 0px;
   margin-bottom: 20px;
 }
-
-/* .basement .list {
-  display: inline-block;
-} */
 
 .footer .link {
   color: var(--primary-white-color);
