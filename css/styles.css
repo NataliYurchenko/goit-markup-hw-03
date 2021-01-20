@@ -71,7 +71,7 @@ header {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
-  line-height: 1.17;
+  line-height: 1.19;
   letter-spacing: 0.03em;
   text-decoration: none;
 }
@@ -304,14 +304,16 @@ header {
 
 footer {
   background-color: var(--footer-background);
-}
-
-.basement {
-  /* display: flex;
-  flex-direction: column; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
+
+/* .basement {
+  display: flex;
+  flex-direction: column; 
+  padding-top: 60px;
+  padding-bottom: 60px;
+} */
 
 .basement li:not(:last-child) {
   margin-bottom: 9px;
@@ -322,6 +324,13 @@ footer {
   padding: 0px;
   margin-bottom: 20px;
 }
+
+.basement .web,
+.basement .footer-studio {
+  display: inline-block;
+  padding: 0;
+}
+
 .basement .list {
   display: inline-block;
 }
