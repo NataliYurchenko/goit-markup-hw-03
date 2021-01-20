@@ -267,7 +267,7 @@ header {
   margin-bottom: 30px;
 
   background-color: var(--primary-white-color);
-  border: 1px solid var(--frame-portfolio-photo);
+  outline: 1px solid var(--frame-portfolio-photo);
 }
 
 .portfolio-item:nth-child(3n) {
@@ -288,8 +288,8 @@ header {
 }
 
 .portfolio {
-  padding-top: 74px;
-  padding-bottom: 114px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .portfolio-link {
@@ -412,21 +412,21 @@ footer {
   padding-bottom: 200px;
 }
 
+
+
+
+/* ===============   Section 2. BENEFITS  */
+
+
 .benefits {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.job {
-  padding-bottom: 94px;
-}
-
-/* ===============   Section 2. BENEFITS  */
-
 .benefits h3 {
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.17;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 
@@ -451,6 +451,10 @@ footer {
 }
 
 /* ===============  Section 3. JOB=Чем мы занимаемся*/
+
+.job {
+  padding-bottom: 94px;
+}
 
 .job-list {
   display: flex;
@@ -514,7 +518,7 @@ footer {
 .team h3 {
   font-weight: 500;
   font-size: 16px;
-  line-height: 1.17;
+  line-height: 1.19;
 
   margin-top: 0px;
   margin-bottom: 10px;
