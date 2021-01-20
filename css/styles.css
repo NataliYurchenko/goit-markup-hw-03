@@ -52,6 +52,7 @@ body {
 .main-nav {
   display: flex;
   align-items: center;
+  /* justify-content: space-between; */
 }
 
 header {
@@ -306,18 +307,11 @@ footer {
 }
 
 .basement {
-  display: flex;
-  flex-direction: column;
+  /* display: flex;
+  flex-direction: column; */
   padding-top: 60px;
   padding-bottom: 60px;
 }
-
-/* .basement ul,
-.basement li {
-  display: block;
-  margin: 0;
-  padding: 0;
-} */
 
 .basement li:not(:last-child) {
   margin-bottom: 9px;
@@ -328,16 +322,19 @@ footer {
   padding: 0px;
   margin-bottom: 20px;
 }
+.basement .list {
+  display: inline-block;
+}
 
-.footer .link {
+.footer-address .link {
   color: var(--primary-white-color);
   font-style: normal;
   line-height: 1.71;
   text-decoration: none;
 }
 
-.footer .mail,
-.footer .tel {
+.footer-address .mail,
+.footer-address .tel {
   color: #ffffff99;
 }
 
@@ -365,10 +362,13 @@ footer {
   padding-bottom: 200px;
 }
 
-.hero,
-.benefits,
+.benefits {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .job {
-  margin-bottom: 94px;
+  padding-bottom: 94px;
 }
 
 /* ===============   Section 2. BENEFITS  */
