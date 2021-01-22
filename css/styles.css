@@ -255,10 +255,15 @@ header {
 
 .portfolio-item {
   width: 370px;
+  /* width: calc((100%-60px) / 3); */
   margin: 15px;
 
   background-color: var(--primary-white-color);
   outline: 1px solid var(--frame-portfolio-photo);
+}
+
+.portfolio-link {
+  margin: 0;
 }
 
 /* .portfolio-item:not(:nth-child(3n)) {
@@ -398,7 +403,7 @@ footer {
   padding-bottom: 200px;
 }
 
-/* ===============   Section 2. BENEFITS  */
+/* ===============   Section 2. BENEFITS =========== */
 
 .benefits {
   padding-top: 94px;
@@ -524,3 +529,17 @@ footer {
 }
 
 /* ============================================== */
+/* .visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+} */
